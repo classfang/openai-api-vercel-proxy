@@ -37,5 +37,7 @@ vercel --prod
 
 - OpenAI接口文档：https://platform.openai.com/docs/api-reference/chat
 
+- 建议在vercel配置个人域名保持接口稳定，无需证书即可实现https。
+
 #### 5.扩展
 只需在`vercel.json`文件中修改或者增加代理配置即可。
