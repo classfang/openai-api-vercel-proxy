@@ -3,6 +3,10 @@
         {
             "src": "/v1/(.*)",
             "dest": "https://api.openai.com/v1/$1"
+        },
+        {
+            "src": "/googleapis/(.*)",
+            "dest": "https://www.googleapis.com/$1"
         }
     ]
 }
